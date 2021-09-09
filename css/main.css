@@ -1,0 +1,211 @@
+header {
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+header nav {
+    width: 100%;
+    background: linear-gradient(to right, #111 70%, #eee);
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 22222222;
+}
+
+header nav .collapse ul li a {
+    color: wheat !important;
+    text-transform: capitalize;
+
+}
+
+header nav .collapse ul li a:hover {
+    background-color: white !important;
+    border-radius: 20px;
+    color: black !important;
+    text-decoration: underline;
+}
+
+header nav .navbar-brand img {
+    width: 80px;
+    height: auto;
+}
+
+.about {
+    width: 100%;
+    background: linear-gradient(to right, #111 70%, #eee);
+    padding: 40px 0px;
+
+}
+
+.about h1 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.about .hr1 {
+    width: 50%;
+    margin: auto;
+    height: 2px;
+    background-image: linear-gradient(to right, black, red, black);
+}
+
+.about hr {
+    border: 1px dashed white;
+    width: 40%;
+
+}
+
+.about .hr3 {
+    width: 30%;
+}
+
+
+.about .container .left img {
+    width: 100%;
+}
+
+.about .container .right .box {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.gallary {
+    width: 100%;
+    margin-top: 100px;
+    background: linear-gradient(to right, #111 70%, #eee);
+    padding: 40px 0px;
+
+}
+
+.gallary h1 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.gallary .hr1 {
+    width: 50%;
+    margin: auto;
+    height: 2px;
+    background-image: linear-gradient(to right, black, red, black);
+}
+
+.gallary hr {
+    border: 1px dashed white;
+    width: 40%;
+
+}
+
+.gallary .hr3 {
+    width: 30%;
+}
+
+.gallary .container ul li{
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.gallary .container ul li.button1{
+    background-color: white;
+    color: black;
+
+}
+
+.gallary .container ul li:hover{
+    background-color: white;
+    color: black;
+}
+.gallary .container .box {
+    margin-top: 30px;
+    height: 250px;
+}
+
+.gallary .container .box img {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.contact{
+    width: 100%;
+    margin-top: 100px;
+    background: linear-gradient(to right, #111 70%, #eee);
+    padding: 40px 0px;
+
+}
+
+.contact h1 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.contact .hr1 {
+    width: 50%;
+    margin: auto;
+    height: 2px;
+    background-image: linear-gradient(to right, black, red, black);
+}
+
+.contact hr {
+    border: 1px dashed white;
+    width: 40%;
+
+}
+
+.contact .hr3 {
+    width: 30%;
+}
+.contact .container .left{
+    margin-bottom: 30px;
+}
+.contact .container .left .form-groub{
+    margin-bottom: 30px;
+}
+.contact .container .left .form-groub label{
+    color: white;
+    text-transform: capitalize;
+    
+    
+}
+.contact .container .right img{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    margin-top: 100px;
+    background: linear-gradient(to right, #111 70%, #eee);
+    padding: 40px 0px;
+}
+footer .container .box h3{
+text-transform: capitalize;
+color: white;
+
+
+}
+
+footer .container .box p{
+    color: gray;
+}
+
+footer .container .box a{
+    color: gray;
+    display: block;
+    margin-bottom: 5px;
+}
+footer .container hr{
+    border: 1px solid gray;
+}
+footer .container .down span{
+    color: gray;
+}
+
